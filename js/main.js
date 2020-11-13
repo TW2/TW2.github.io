@@ -76,7 +76,7 @@ function populateCnmp() {
                 + '<span class="project-desc">Ce logiciel sert à lire des comics et mangas au format CNM.</span><br />'
                 + '<span class="project-link"><a href="#">Aller à la page du projet.</a></span>'
                 + '</td><td>'
-                + '<img src="images/cnmp 01.png" />'
+                + '<img src="images/cnmp.png" />'
                 + '</td></tr>'
                 + '</table>';
     }else{
@@ -86,7 +86,7 @@ function populateCnmp() {
                 + '<span class="project-desc">This software permits reading in CNM format.</span><br />'
                 + '<span class="project-link"><a href="#">Go to the project page.</a></span>'
                 + '</td><td>'
-                + '<img src="images/cnmp 01.png" />'
+                + '<img src="images/cnmp.png" />'
                 + '</td></tr>'
                 + '</table>';
     }
