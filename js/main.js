@@ -100,7 +100,7 @@ function populateCnms() {
         txt = '<table witdh="1500">'
                 + '<tr><td width="600" height="169">'
                 + '<span class="project-name">CNM Studio</span><br />'
-                + '<span class="project-desc">Le Studio CNM crée des fichiers CNM pour comics et mangas multilingues</span><br />'
+                + '<span class="project-desc">Le Studio CNM crée des fichiers CNM pour comics et mangas multilingues.</span><br />'
                 + '<span class="project-link"><a href="#">Aller à la page du projet.</a></span>'
                 + '</td><td>'
                 + '<img src="images/cnms.png" />'
