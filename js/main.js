@@ -32,9 +32,9 @@ function populateAdvice() {
 function populateFrEn() {
     var txtFrEn;
     if(isFrench()) {
-        txtFrEn = '<div id="fren">Ce site est en Français comme stipulé dans votre navigateur.</div>';
+        txtFrEn = 'Ce site est en Français comme stipulé dans votre navigateur.';
     }else{
-        txtFrEn = '<div id="fren">This site is in English because French is unavailable.</div>';
+        txtFrEn = 'This site is in English because French is unavailable.';
     }
     document.getElementById("fren").innerHTML = txtFrEn;
 }
