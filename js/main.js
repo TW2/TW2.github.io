@@ -16,7 +16,7 @@ function populateAdvice() {
                 + "pour moi-même et tous.<br />Vous pouvez visiter le blog ou le canal Discord (en parlant Anglais ou "
                 + "Français). Pour ceux qui ne connaissent pas Discord, c'est un logiciel et solution cloud qui "
                 + "permet de discuter avec d'autres membres enregistrés ou non. Vous pouvez passer discuter et "
-                + "contribuer à des projets. Vous pouvez copier, forké et partager."
+                + "contribuer à des projets. Vous pouvez copier, forker et partager."
         document.getElementById("advice").innerHTML = frAdvice;
     }else{
         var enAdvise = "This page goal is to describe opensource software I code for myself and people.<br />"
