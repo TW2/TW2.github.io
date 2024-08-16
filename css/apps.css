@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "Regular";
+    src: url('../fonts/AlteHaasGroteskRegular.ttf');
+}
+
+@font-face {
+    font-family: "Bold";
+    src: url('../fonts/AlteHaasGroteskBold.ttf');
+}
+
+/* ================================================================================================================ */
+
+body {
+    font-family: "Regular";
+    font-size: small;
+    color: rgb(15, 155, 15);
+    margin: 0;
+}
+
+/* ================================================================================================================ */
+/* == HAUT DE LA PAGE ============================================================================================= */
+/* ================================================================================================================ */
+
+.barre-du-haut {
+    position: absolute;
+    width: 100%;
+    height: 7rem;
+    background-color: rgb(15, 155, 15);
+    font-size: 4rem;
+    color: white;
+}
+
+.titre-de-app {
+    position: absolute;
+    float: left;
+    left: 30px;
+}
+
+.infos-du-haut {
+    position: absolute;
+    float: left;
+    left: 35px;
+    top: 75px;
+    font-family: "Bold";
+    font-size: 1rem;
+}
+
+/* ================================================================================================================ */
+/* == MILIEU DE LA PAGE =========================================================================================== */
+/* ================================================================================================================ */
+
+#section-page {
+    position: absolute;
+    top: 150px;
+    float: left;
+    left: 35px;
+}
+
+#app-list {
+    position: relative;
+    font-family: "Bold";    
+    font-size: 1rem;
+}
