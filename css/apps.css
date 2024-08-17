@@ -12,9 +12,19 @@
 
 body {
     font-family: "Regular";
-    font-size: small;
+    font-size: medium;
     color: rgb(15, 155, 15);
     margin: 0;
+}
+
+a:link {
+    text-decoration: none;
+    color: rgb(15, 155, 15);
+}
+
+a:visited {
+    text-decoration: none;
+    color: rgb(15, 155, 15);
 }
 
 /* ================================================================================================================ */
@@ -51,13 +61,32 @@ body {
 
 #section-page {
     position: absolute;
-    top: 150px;
+    top: 130px;
     float: left;
     left: 35px;
+}
+
+#join-me {
+    position: relative;
+    font-size: 2rem;
+    color: black;
 }
 
 #app-list {
     position: relative;
     font-family: "Bold";    
     font-size: 1rem;
+}
+
+#main-page {
+    position: absolute;
+    float: left;
+    left: 200px;
+    top: 0px;    
+}
+
+.main-text {
+    position: relative;
+    width: 1450px;
+    top: 20px;
 }

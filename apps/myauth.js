@@ -7,4 +7,5 @@ function view_myauth() {
         + '</div></div>';
 
     document.getElementById("app-header").innerHTML = header;
+    document.getElementById("main-page").innerHTML = '';
 }
